@@ -12,7 +12,7 @@ function Project(props) {
                 <figure className="ration ratio-4-3">
                   <a href={project.live} target="_blank" rel="noreferrer">
                     <img
-                      src={`../${project.image}`}
+                      src={project.image}
                       alt="Placeholder image"
                       className="card-img-top"
                       width={300}
@@ -27,28 +27,28 @@ function Project(props) {
                   <p>{project.description}</p>
                   <p className="card-text">Languages: {project.languages}</p>
                   <p className="card-text">NPM Packages: {project.packages}</p>
-                  </div>
-                  <div className="card-footer">
-                    <a
-                      href={project.repo}
-                      className="card-footer-item"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      See the Repo!
-                    </a>
-                    <br />
-                    <a
-                      href={project.live}
-                      className="card-footer-item"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      See the Live Site!
-                    </a>
-                  </div>
+                </div>
+                <div className="card-footer">
+                  <a
+                    href={project.repo}
+                    className="card-footer-item"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    See the Repo!
+                  </a>
+                  <br />
+                  <a
+                    href={project.live}
+                    className="card-footer-item"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    See the Live Site!
+                  </a>
                 </div>
               </div>
+            </div>
           ))}
         </div>
       </div>
