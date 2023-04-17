@@ -1,0 +1,15 @@
+.color-nav {
+ background-color: rgb(143, 199, 199);
+}
+.text-nav {
+font-size: 250%;
+font-style: oblique;
+color: #96b315;
+}
+
+.contact-background-image {
+    background-image: url("../images/background.jpg");
+    padding: 50px 0 50px 0;
+    height: 100px;
+    background-size: 100% 
+  }
