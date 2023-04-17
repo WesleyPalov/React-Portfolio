@@ -8,21 +8,21 @@ function Header() {
   return (
     <Navbar className="contact-background-image" variant="light">
       <Container>
-        <Link className="text-nav" to="/about">
+        <Link className="text-nav" to="/React-Portfolio/about">
           Wesley Palov
         </Link>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto">
-            <Link className="nav-link" to="/about">
+            <Link className="nav-link" to="/React-Portfolio/about">
               {" "}
               About{" "}
             </Link>
-            <Link className="nav-link" to="/blog">
+            <Link className="nav-link" to="/React-Portfolio/blog">
               {" "}
-              Progects{" "}
+              Projects{" "}
             </Link>
-            <Link className="nav-link" to="/contact">
+            <Link className="nav-link" to="/React-Portfolio/contact">
               {" "}
               Contact{" "}
             </Link>
