@@ -2,10 +2,30 @@
  background-color: rgb(143, 199, 199);
 }
 .text-nav {
-font-size: 250%;
+font-size: 350%;
 font-style: oblique;
 color: #96b315;
 }
+
+.text-bar {
+  font-size: 200%;
+  font-style: unset;
+  color: #15b344;
+  text-align: center;
+  }
+
+  .text-menu {
+    font-size: 200%;
+    font-style: unset;
+    color: #0cf752;
+    text-align: center;
+    }
+    .text-about {
+      font-size: 200%;
+      font-style: unset;
+      color: white;
+      text-align: center;
+      }
 
 .contact-background-image {
     background-image: url("../images/background.jpg");

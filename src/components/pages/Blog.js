@@ -1,10 +1,12 @@
 import React from "react";
 import Project from "./Project";
+import ParticlesBg from 'particles-bg';
 import fluffy from "../../images/fluffy.jpg";
 import daily from "../../images/daily.jpg";
 import myNet from "../../images/myNet.JPG";
 import weather from "../../images/weather.JPG";
-
+import texteditor from "../../images/texteditor.PNG";
+import ecommers from "../../images/ecommers.JPG";
 const projects = [
   {
     id: 1,
@@ -42,7 +44,7 @@ const projects = [
   },
   {
     id: 4,
-    title: "Project 3",
+    title: "Project 4",
     languages: "HTML, CSS ,API integration",
     packages: "Uses AJAX to hook into the API to retrieve data in JSON format.",
     image: weather,
@@ -51,14 +53,39 @@ const projects = [
     repo: "https://github.com/WesleyPalov/WeatherDashbord-HW6",
     live: "https://wesleypalov.github.io/WeatherDashbord-HW6/",
   },
+  {
+    id: 5,
+    title: "Project 5",
+    languages: "React, Express",
+    packages: "",
+    image: texteditor,
+    description:
+      "The application is a web text editor where the user can create notes or code snippets with or without an internet connection and where the user can reliably retrieve them for later use. The integrated service worker and Cache API's ensure that the application will remain fully functional even without and active internet connection. This application allows the user to access visited pages even if the application is offline.",
+    repo: "https://github.com/WesleyPalov/ProgressiveText-Editor",
+    live: "https://evening-coast-00835.herokuapp.com/",
+  },
+  {
+    id: 6,
+    title: "Project 6",
+    languages: "",
+    packages: "Sequelize to interact with a MySQL database",
+    image: ecommers,
+    description:
+      "The back end has been build for an e-commerce site by usin a starter code. Express.js API has been cofiguured to use Sequelize to interact with a MySQL database. Since this is a back end only application , some HTML elements have been used for demonstration purpose.",
+    repo: "https://github.com/WesleyPalov/E.Commerce",
+    live: "https://drive.google.com/file/d/1fSAGWB1oO-h8Dq6utS8ASgUPwvDQ2Gdr/view",
+  },
 ];
 export default function Blog() {
   return (
     <div>
-      <p className="content is-medium">Projects</p>
+    
+      <p className="content is-medium text-bar">Projects</p>
       <hr />
 
       <Project projects={projects} />
+     
     </div>
+    
   );
 }

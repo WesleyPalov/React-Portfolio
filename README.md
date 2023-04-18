@@ -1,4 +1,4 @@
-# 20 React: React Portfolio
+ React: React Portfolio
 
 ## Your Task
 

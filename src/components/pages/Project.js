@@ -1,13 +1,18 @@
 import React from "react"; // importing gql from the Apollo
 //const { gql } = require("apollo-server-express");
+import ParticlesBg from 'particles-bg'
 
 function Project(props) {
   return (
     <div className="container mx-auto my-5">
+      
       <div className="row d-flex flex-row justify-content-between align-items-baseline">
+        
         <div className="card-group my-5">
+          
           {props.projects.map((project) => (
             <div className="col-md-4">
+              
               <div className="card h-100">
                 <figure className="ration ratio-4-3">
                   <a href={project.live} target="_blank" rel="noreferrer">
@@ -52,6 +57,7 @@ function Project(props) {
           ))}
         </div>
       </div>
+      <ParticlesBg type="circle" bg={true} />
     </div>
   );
 }

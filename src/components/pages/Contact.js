@@ -1,6 +1,7 @@
 import emailjs from "@emailjs/browser";
 import React, { useState } from "react";
 import { validateEmail } from "../utils/helpers";
+import ParticlesBg from "particles-bg";
 const emailSeviceId = "service_i9fbiiv";
 const emailTemplateId = "template_bo7mj53";
 const publicKey = "5SUMXfK83fo9tTutW";
@@ -26,7 +27,7 @@ function Contact() {
             name: "",
             email: "",
             message: "",
-          })
+          });
         },
         (err) => {
           console.log("FAILED...", err);
@@ -58,7 +59,8 @@ function Contact() {
 
   return (
     <div className="container">
-      <p className="content is-medium">Contact Me</p>
+      <ParticlesBg type="cobweb" bg={true} />
+      <p className="content is-medium text-bar">Contact Me</p>
       <hr />
       <form id="contact-form" onSubmit={handleSubmit}>
         <div className="field">

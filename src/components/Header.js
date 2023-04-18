@@ -14,15 +14,15 @@ function Header() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto">
-            <Link className="nav-link" to="/about">
+            <Link className="nav-link text-menu" to="/about">
               {" "}
               About{" "}
             </Link>
-            <Link className="nav-link" to="/blog">
+            <Link className="nav-link text-menu" to="/blog">
               {" "}
               Projects{" "}
             </Link>
-            <Link className="nav-link" to="/contact">
+            <Link className="nav-link text-menu" to="/contact">
               {" "}
               Contact{" "}
             </Link>
