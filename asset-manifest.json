@@ -1,21 +1,23 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.5988bb14.css",
-    "main.js": "/React-Portfolio/static/js/main.e1506053.js",
+    "main.css": "/React-Portfolio/static/css/main.a861beba.css",
+    "main.js": "/React-Portfolio/static/js/main.475ed787.js",
     "static/js/787.a2cb61a6.chunk.js": "/React-Portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/fluffy.jpg": "/React-Portfolio/static/media/fluffy.ea2af1b79c9987b9237d.jpg",
     "static/media/myimg.jpg": "/React-Portfolio/static/media/myimg.10a35513f07da4b9e788.jpg",
     "static/media/daily.jpg": "/React-Portfolio/static/media/daily.b3da70edbe54125a1d1f.jpg",
     "static/media/myNet.JPG": "/React-Portfolio/static/media/myNet.e2bde6b0f7c3f3c4ac18.JPG",
     "static/media/weather.JPG": "/React-Portfolio/static/media/weather.1b18b3b0340126e1a345.JPG",
-    "static/media/background.jpg": "/React-Portfolio/static/media/background.92fbc832c17e6e0885a1.jpg",
+    "static/media/ecommers.JPG": "/React-Portfolio/static/media/ecommers.a4d88735bcc7016bffce.JPG",
+    "static/media/background.jpg": "/React-Portfolio/static/media/background.b9a6df207a5b3bafa514.jpg",
+    "static/media/texteditor.PNG": "/React-Portfolio/static/media/texteditor.9b4a13353b7e78cebddb.PNG",
     "index.html": "/React-Portfolio/index.html",
-    "main.5988bb14.css.map": "/React-Portfolio/static/css/main.5988bb14.css.map",
-    "main.e1506053.js.map": "/React-Portfolio/static/js/main.e1506053.js.map",
+    "main.a861beba.css.map": "/React-Portfolio/static/css/main.a861beba.css.map",
+    "main.475ed787.js.map": "/React-Portfolio/static/js/main.475ed787.js.map",
     "787.a2cb61a6.chunk.js.map": "/React-Portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5988bb14.css",
-    "static/js/main.e1506053.js"
+    "static/css/main.a861beba.css",
+    "static/js/main.475ed787.js"
   ]
 }
