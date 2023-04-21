@@ -26,6 +26,15 @@ function Header() {
               {" "}
               Contact{" "}
             </Link>
+            <a
+              href="https://drive.google.com/file/d/1aWclCcQK8bgzeoSY83Rb_8TbRs-IfgzL/view?usp=sharing"
+              download="Wesley resume"
+              className="nav-link text-menu"
+            >
+             
+                Download Resume
+            
+            </a>
           </Nav>
         </Navbar.Collapse>
       </Container>

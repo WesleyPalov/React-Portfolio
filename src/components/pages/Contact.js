@@ -68,7 +68,7 @@ function Contact() {
             Name
           </label>
           <input
-            className="form-control"
+            className="form-control contact-form"
             type="text"
             id="name"
             name="name"
@@ -81,7 +81,7 @@ function Contact() {
             Email Address
           </label>
           <input
-            className="form-control"
+            className="form-control contact-form"
             type="email"
             id="email"
             name="email"
@@ -94,7 +94,7 @@ function Contact() {
             Message
           </label>
           <textarea
-            className="form-control"
+            className="form-control contact-form"
             name="message"
             id="message"
             rows="5"
